@@ -5,4 +5,23 @@
 p {
   margin: 0;
 }
- 
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+  display: none;
+}
+input[type="date"]{
+  cursor: pointer;
+}
+button{
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  background: #3e5227;
+  color: snow;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.05);
+  background: #566e39;
+}
